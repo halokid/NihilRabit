@@ -1,5 +1,9 @@
 package nodes
 
+import (
+  "github.com/r00tjimmy/ColorfulRabbit"
+)
+
 type NodeIter interface {
   getNodeLog() string
   Notify() bool
